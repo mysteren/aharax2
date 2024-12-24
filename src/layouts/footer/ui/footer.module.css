@@ -1,0 +1,30 @@
+.root {
+  padding: 0.5rem 0;
+  color: var(--color-lighter);
+  background-color: var(--color-darker);
+  box-shadow: 0 0 2px 0px rgb(from var(--color-dark) r g b / 60%);
+}
+
+.content {
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+}
+
+.icon {
+  display: flex;
+}
+
+.col3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+  align-items: center;
+}

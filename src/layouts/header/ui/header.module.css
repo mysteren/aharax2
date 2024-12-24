@@ -1,0 +1,17 @@
+.root {
+  color: var(--color-lighter);
+  background-color: var(--color-darker);
+  box-shadow: 0 0 2px 0px rgb(from var(--color-dark) r g b / 60%);
+  padding: 0.5rem 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+}
